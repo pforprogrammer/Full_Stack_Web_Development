@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Job Application</h2>
+<form >
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" > <br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" >
+    <br>
+    <label for="phone">Phone</label><br>
+    <input type="tel" id="phone" name="phone" >
+    <br>
+    <label for="resume">Resume</label><br>
+    <input type="file" name="resume" id="resume">
+    <br>
+    <label for="counter">Experience(in year)</label><br>
+    <input type="number" id="counter" max="50" min="0" name="counter" value="0">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Skills</legend>
+        <br>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="html">
+        <br>
+        <br>
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="css">
+        <br>
+        <br>
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="javascript" name="javascript">
+        <br>
+
+    </fieldset>
+    <label for="highedu">Highest_education</label><br>
+    <select name="highedu" id="highedu">
+        <option value="a">Matric</option>
+        <option value="b">Inter </option>
+        <option value="c">Undergraduate</option>
+        <option value="d">Graduate</option>
+    </select>
+<br><br>
+    <fieldset>
+        <legend>Availability</legend><br>
+        <label for="full_time">Full Time : </label>
+        <input type="radio" name="Availability" id="full_time">
+        <br><label for="part_time">Part Time : </label>
+        <input type="radio" name="Availability" id="part_time">
+    
+    </fieldset>
+    <br>
+    <label for="comments">Additional Comments:</label><br>
+    <textarea name="comments" id="comments" cols="13" rows="4" >Give your feedback here</textarea>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
